@@ -1,0 +1,230 @@
+// Typography.less
+// Headings, body text, lists, code, and more for a versatile and durable typography system
+// ----------------------------------------------------------------------------------------
+
+
+// BODY TEXT
+// ---------
+
+p {
+	margin: 0 0 @baseMargin;
+	font-family: @baseFontFamily;
+	font-size: @baseFontSize;
+	line-height: @baseLineHeight * 1.25;
+	
+	small {
+		font-size: @baseFontSize - 2;
+		color: @grayLight;
+	}
+}
+
+a { text-decoration: none; }
+a:hover { text-decoration: none; }
+
+.small-text   { font-size: @baseFontSize * .85; }
+.smaller-text { font-size: @baseFontSize * .785; }
+
+.lead {
+	margin-bottom: @baseMargin;
+	font-size: @baseFontSize * 1.4;
+	font-weight: 200;
+	line-height: @baseMargin * 1.2;
+}
+
+// HEADINGS
+// --------
+
+h1, h2, h3, h4, h5, h6, .header-1, .header-2, .header-3, .header-4, .header-5, .header-6 {
+	line-height: @baseLineHeight * .85;
+	margin: @baseMargin * 2 0 @baseMargin * .5 0;
+	color: @headingsColor;
+	text-rendering: optimizelegibility; // Fix the character spacing for headings
+	small {
+		font-weight: normal;
+		color: @grayLight;
+	}
+	
+	&:first-child, &.first { margin-top: 0; }
+}
+
+h1, .header-1 {
+	font-size: @baseFontSize * 3 + 3;
+	small {
+		font-size: @baseFontSize * 1.3;
+	}
+	@media (max-width:767px) {
+		font-size: @baseFontSize * 2.4;
+	}
+}
+
+h2, .header-2 {
+	font-size: @baseFontSize * 2.4 + 3;
+	small {
+		font-size: @baseFontSize * 1.25;
+	}
+	@media (max-width:767px) {
+		font-size: @baseFontSize * 1.9;
+	}
+}
+
+h3, .header-3 {
+	font-size: @baseFontSize * 1.9 + 3;
+	small {
+		font-size: @baseFontSize;
+	}
+	@media (max-width:767px) {
+		font-size: @baseFontSize * 1.5;
+	}
+}
+
+h4, .header-4 {
+	font-size: @baseFontSize * 1.5 + 3;
+	small {
+		font-size: @baseFontSize - 1;
+	}
+	@media (max-width:767px) {
+		font-size: @baseFontSize + 2;
+	}
+}
+
+h5, .header-5 {
+	font-size: @baseFontSize + 2;
+	@media (max-width:767px) {
+		font-size: @baseFontSize;
+	}
+}
+
+h6, .header-6 {
+	font-size: @baseFontSize;
+	color: @gray;
+	text-transform: uppercase;
+	
+}
+
+// Page header
+.page-header {
+	padding-bottom: @baseMargin - 1;
+	margin: @baseMargin 0;
+	border-bottom: 1px solid @grayLighter;	
+	h1 { line-height: 1; }
+}
+
+// Section Header
+.section-header {
+	.clearfix();
+	border-bottom: 1px solid lighten(@gray, 35%);
+	padding-bottom: @baseFontSize * .35;
+	margin-bottom: @baseMargin * 1.5;
+	h1, h2, h3, h4, h5, h6 {
+		margin-bottom: 0
+	}
+}
+
+.spacer {
+	margin-bottom: 5em;
+}
+
+// MISC
+// ----
+
+// Horizontal rules
+hr {
+	margin: @baseLineHeight 0;
+	border: 0;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid @white;
+}
+
+// Emphasis
+strong {
+	font-weight: bold;
+}
+
+em {
+	font-style: italic;
+}
+
+.muted {
+	color: @grayLight;
+}
+
+// Abbreviations and acronyms
+abbr {
+	font-size: 90%;
+	text-transform: uppercase;
+	border-bottom: 1px dotted #ddd;
+	cursor: help;
+}
+
+// Blockquotes
+blockquote {
+	padding: 0 0 0 15px;
+	margin: 0 0 @baseMargin @baseMargin * 2;
+	border-left: 5px solid @grayLighter;
+	p {
+		margin-bottom: 0;
+		#font > .serif(14px,300,@baseLineHeight * 1.1);
+		font-style: italic;
+		color: @gray;
+	}
+	small {
+		display: block;
+		line-height: @baseLineHeight;
+		color: @grayLight;
+    &:before {
+		content: '\2014 \00A0';
+	}
+}
+
+	// Float right with text-align: right
+	&.pull-right {
+	    float: right;
+	    padding-left: 0;
+	    padding-right: 15px;
+	    border-left: 0;
+	    border-right: 5px solid @grayLighter;
+	    p,small {
+			text-align: right;
+		}
+	}
+}
+
+// Quotes
+q:before,
+q:after,
+blockquote:before, 
+blockquote:after {
+	content: "";
+}
+
+// Addresses
+address {
+	display: block;
+	margin-bottom: @baseLineHeight;
+	line-height: @baseLineHeight;
+	font-style: normal;
+}
+
+// Misc
+small {
+	font-size: 100%;
+}
+
+cite {
+	font-style: normal;
+}
+
+.center { text-align: center; }
+.caps { text-transform: uppercase; }
+
+.warning-text { color: @orange; }
+.danger-text, .error-text { color: @red; }
+.success-text { color: @green; }
+.info-text { color: @grayLight; }
+.dark-text { color: @grayDarker; }
+
+a.warning-text { .link-color(@orange); }
+a.danger-text, .error-text { .link-color(@red); }
+a.success-text { .link-color(@green); }
+a.info-text, a.muted { .link-color(@grayLight); }
+a.dark-text { .link-color(@grayDarker); }
