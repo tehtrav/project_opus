@@ -51,7 +51,6 @@
 	<section id="reel">
 		<div class="videoWrapper">
 			<iframe src="http://player.vimeo.com/video/64176095?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
-		
 		</div>
 	
 	</section><!--reel-->
@@ -162,7 +161,45 @@
 						</ol>
 					</div>
 				</div>
-			</div>
+			</div><!--timeline-->
+			
+			<div class="values">
+				<div class="row-fluid">
+					<div class="span5">
+						<h3>Our core values</h3>
+						<p class="large-text bright">We’re blessed to do what we love every day with a team that respects each other and loves the work they produce. Our work, and our process reflects our culture and core values. That’s why we always:</p>
+						<ol>
+							<li>Under-promise and over-deliver</li>
+							<li>Communicate thoroughly and effectively</li>
+							<li>Give & expect respect</li>
+							<li>Hold each other accountable</li>
+							<li>Make the process as pain-free for the client as possible</li>
+						</ol>
+					</div><!--span5-->
+					
+					<div class="span7 infographic">
+						<div class="one">
+							<img src="http://placehold.it/10" />
+							<span>Excellence</span>
+						</div>
+						<div class="two">
+							<img src="http://placehold.it/10" />
+							<span>Respect</span>
+						</div>
+						<div class="three">
+							<img src="http://placehold.it/10" />
+							<span>Trust</span>
+						</div>
+						
+					</div><!--span7-->
+					
+				</div><!--row-->
+			</div><!--values-->
+			
+			
+			
+			
+			
 		</div>
 	
 	

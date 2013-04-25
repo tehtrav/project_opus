@@ -87,16 +87,6 @@ section {
 	}
 }
 
-/* 
-<div id="process-guage">
-	<strong>Start</strong>
-	<strong>Finish</strong>
-	container
-		<span class="one"></span>
-		<span class="one"></span>
-		<span class="one"></span>
-</div>
-*/
 
 #whatwedo {
 	#process-gauge {
@@ -165,7 +155,7 @@ section {
 	}
 	
 	#timeline {
-		padding-bottom: 200px;
+		padding-bottom: @baseMargin * 7;
 		p {
 			font-size: 15px;
 		}
@@ -347,6 +337,85 @@ section {
 						left: 95.2%;
 					}
 				}
+			}
+		}
+	}
+	
+	.values {
+		
+		margin: 0 0 0 0;
+		
+		
+		ol {
+			list-style-type: none;
+			margin-left: 0;
+			padding: 0;
+			
+					  
+			& > li {
+				counter-increment: customlistcounter;
+				clear: left;
+				font-size: @baseFontSize * 1.1;
+				margin-bottom: @baseMargin * 1.2;
+				&:before {
+					content: counter(customlistcounter) " ";
+					font-weight: bold;
+					float: left;
+					margin: -4px @baseMargin * 1.3 0 0;
+					display: block;
+					line-height: .9;
+					background: @orange;
+					text-align: center;
+					.square(12px);
+					padding: 8px;
+					.border-radius(20px);
+					color: @bodyBackground;
+				}
+				&:nth-child(1) { &:before { background: lighten(@orange, 35%); } }
+				&:nth-child(2) { &:before { background: lighten(@orange, 25%); } }
+				&:nth-child(3) { &:before { background: lighten(@orange, 15%); } }
+				&:nth-child(4) { &:before { background: lighten(@orange, 6%); } }
+				
+				
+	  		}
+	  		
+			&:first-child {
+			  counter-reset: customlistcounter;
+			}
+			
+			*list-style-type: decimal; /* targets IE6 and IE7 only */
+		}
+		
+		.infographic {
+			position: relative;
+			.clearfix();
+			div {
+				.border-radius(500px);
+				background: @teal;
+				position: absolute;
+				span {
+					position: absolute;
+				}
+				img {
+					width: 100%;
+					min-width: 100%;
+					visibility: hidden;
+				}
+			}
+			.one {
+				background: darken(@teal, 14%);
+				width: 66%;
+				top: 22%;
+			}
+			.two {
+				background: darken(@teal, 5%);
+				width: 53%;
+				top: 23.5%;
+			}
+			.three {
+				background: @teal;
+				width: 40%;
+				top: 30%;
 			}
 		}
 	}
