@@ -31,7 +31,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro-nav {
-	background: @teal url('http://d.pr/bTCE+');
+	background: @teal url('../img/intro-nav-bg.png');
 	nav {
 		.clearfix();
 		text-align: center;
@@ -42,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 			font-size: @baseFontSize * 1.2;
 			text-transform: uppercase;
 			&.selected {
-				background: url('http://d.pr/OjAE+') top center no-repeat;
+				background: url('../img/intro-nav-indicator.png') top center no-repeat;
 				color: #26242C;
 			}
 			&:hover {
@@ -53,7 +53,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #reel {
-	display: none;
+	//display: none;
 }
 
 section {
@@ -72,7 +72,7 @@ section {
 			a {
 				display: inline-block;
 				line-height: 1;
-				padding: 16px;
+				padding: 16px 16px 13px 16px;
 				margin-left: 15px;
 				color: #B8B7B9;
 				font-size: @baseFontSize * 1.2;
@@ -80,7 +80,7 @@ section {
 				.border-radius(6px);
 				&.selected {
 					color: white;
-					background: url('http://d.pr/bTCE+');
+					background: url('../img/intro-nav-bg.png');
 				}
 			}
 		}

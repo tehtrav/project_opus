@@ -97,7 +97,7 @@
 		</div>
 			
 		<div class="container">
-			<div class="row-fluid">
+			<div class="row-fluid spacer">
 				<div class="span4">
 					<h4>Pre-production</h4>
 					<p>Start with a plan. This is where we map out the project, write the script, cast actors, etc. ProjectOpus’s producers and directors will help you map out a plan.</p> 
