@@ -2,26 +2,26 @@
 <html lang="en">
 <head>
     <meta charset="utf-8">
-    <title>Bootstrap</title>
+    <title>Project Opus - A film & video production company in Lancaster PA</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
 
     <!-- Le styles -->
     <link href="/lib/css/bootstrap.css" rel="stylesheet">
-    <link href="assets/css/bootstrap-responsive.css" rel="stylesheet">
+    <link href="/lib/css/bootstrap-responsive.css" rel="stylesheet">
 
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-	<script src="assets/js/html5shiv.js"></script>
+	<script src="/lib/js/html5shiv.js"></script>
     <![endif]-->
 
     <!-- Le fav and touch icons -->
-	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-	<link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
-	<link rel="shortcut icon" href="assets/ico/favicon.png">
+	<link rel="apple-touch-icon-precomposed" sizes="144x144" href="/lib/ico/apple-touch-icon-144-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="114x114" href="/lib/ico/apple-touch-icon-114-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" sizes="72x72" href="/lib/ico/apple-touch-icon-72-precomposed.png">
+	<link rel="apple-touch-icon-precomposed" href="/lib/ico/apple-touch-icon-57-precomposed.png">
+	<link rel="shortcut icon" href="/lib/ico/favicon.png">
 	
 	<!--typekit-->
 	<script type="text/javascript" src="//use.typekit.net/jbb4bbq.js"></script>
@@ -41,7 +41,7 @@
 	<div id="intro-nav">
 		<nav>
 			<a class="selected" href="">Home</a>
-			<a href="">What we do</a>
+			<a href="#whatwedo">What we do</a>
 			<a href="">Our world</a>
 			<a href="">Our work</a>
 			<a href="">Contact</a>
@@ -67,7 +67,7 @@
 					<div class="span8">
 						<nav>
 							<a href="">Home</a>
-							<a class="selected" href="">What we do</a>
+							<a class="selected" href="#whatwedo">What we do</a>
 							<a href="">Our world</a>
 							<a href="">Our work</a>
 							<a href="">Contact</a>
@@ -79,7 +79,7 @@
 			<h3>Our process</h3>
 		</div>
 		
-		<div id="process-gauge">
+		<div id="process-gauge" class="">
 			<strong class="start">Start</strong>
 			<strong class="finish">Finish</strong>
 			
@@ -220,17 +220,17 @@
 
     <div class="row-fluid">
       <div class="span4">
-        <img class="marketing-img" src="assets/img/bs-docs-twitter-github.png">
+        <img class="marketing-img" src="/lib/img/bs-docs-twitter-github.png">
         <h2>By nerds, for nerds.</h2>
         <p>Built at Twitter by <a href="http://twitter.com/mdo">@mdo</a> and <a href="http://twitter.com/fat">@fat</a>, Bootstrap utilizes <a href="http://lesscss.org">LESS CSS</a>, is compiled via <a href="http://nodejs.org">Node</a>, and is managed through <a href="http://github.com">GitHub</a> to help nerds do awesome stuff on the web.</p>
       </div>
       <div class="span4">
-        <img class="marketing-img" src="assets/img/bs-docs-responsive-illustrations.png">
+        <img class="marketing-img" src="/lib/img/bs-docs-responsive-illustrations.png">
         <h2>Made for everyone.</h2>
         <p>Bootstrap was made to not only look and behave great in the latest desktop browsers (as well as IE7!), but in tablet and smartphone browsers via <a href="./scaffolding.html#responsive">responsive CSS</a> as well.</p>
       </div>
       <div class="span4">
-        <img class="marketing-img" src="assets/img/bs-docs-bootstrap-features.png">
+        <img class="marketing-img" src="/lib/img/bs-docs-bootstrap-features.png">
         <h2>Packed with features.</h2>
         <p>A 12-column responsive <a href="./scaffolding.html#gridSystem">grid</a>, dozens of components, <a href="./javascript.html">JavaScript plugins</a>, typography, form controls, and even a <a href="./customize.html">web-based Customizer</a> to make Bootstrap your own.</p>
       </div>
@@ -244,22 +244,22 @@
       <ul class="thumbnails example-sites">
         <li class="span3">
           <a class="thumbnail" href="http://soundready.fm/" target="_blank">
-            <img src="assets/img/example-sites/soundready.png" alt="SoundReady.fm">
+            <img src="/lib/img/example-sites/soundready.png" alt="SoundReady.fm">
           </a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://kippt.com/" target="_blank">
-            <img src="assets/img/example-sites/kippt.png" alt="Kippt">
+            <img src="/lib/img/example-sites/kippt.png" alt="Kippt">
           </a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
-            <img src="assets/img/example-sites/gathercontent.png" alt="Gather Content">
+            <img src="/lib/img/example-sites/gathercontent.png" alt="Gather Content">
           </a>
         </li>
         <li class="span3">
           <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
-            <img src="assets/img/example-sites/jshint.png" alt="JS Hint">
+            <img src="/lib/img/example-sites/jshint.png" alt="JS Hint">
           </a>
         </li>
       </ul>
@@ -286,31 +286,31 @@
       </div>
     </footer>
 
+-->
 
 
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
-    <script src="assets/js/jquery.js"></script>
-    <script src="assets/js/bootstrap-transition.js"></script>
-    <script src="assets/js/bootstrap-alert.js"></script>
-    <script src="assets/js/bootstrap-modal.js"></script>
-    <script src="assets/js/bootstrap-dropdown.js"></script>
-    <script src="assets/js/bootstrap-scrollspy.js"></script>
-    <script src="assets/js/bootstrap-tab.js"></script>
-    <script src="assets/js/bootstrap-tooltip.js"></script>
-    <script src="assets/js/bootstrap-popover.js"></script>
-    <script src="assets/js/bootstrap-button.js"></script>
-    <script src="assets/js/bootstrap-collapse.js"></script>
-    <script src="assets/js/bootstrap-carousel.js"></script>
-    <script src="assets/js/bootstrap-typeahead.js"></script>
-    <script src="assets/js/bootstrap-affix.js"></script>
+    <script src="/lib/js/jquery.js"></script>
+    <script src="/lib/js/bootstrap-transition.js"></script>
+    <script src="/lib/js/bootstrap-alert.js"></script>
+    <script src="/lib/js/bootstrap-modal.js"></script>
+    <script src="/lib/js/bootstrap-dropdown.js"></script>
+    <script src="/lib/js/bootstrap-scrollspy.js"></script>
+    <script src="/lib/js/bootstrap-tab.js"></script>
+    <script src="/lib/js/bootstrap-tooltip.js"></script>
+    <script src="/lib/js/bootstrap-popover.js"></script>
+    <script src="/lib/js/bootstrap-button.js"></script>
+    <script src="/lib/js/bootstrap-collapse.js"></script>
+    <script src="/lib/js/bootstrap-carousel.js"></script>
+    <script src="/lib/js/bootstrap-typeahead.js"></script>
+    <script src="/lib/js/bootstrap-affix.js"></script>
+    <script src="/lib/js/waypoints.min.js"></script>
+    <script src="/lib/js/min/scripts-min.js"></script>
 
-    <script src="assets/js/holder/holder.js"></script>
-    <script src="assets/js/google-code-prettify/prettify.js"></script>
-
-    <script src="assets/js/application.js"></script>
+<!--    <script src="/lib/js/holder/holder.js"></script>-->
+<!--    <script src="/lib/js/google-code-prettify/prettify.js"></script>-->
 
 
 
   </body>
 </html>
--->

@@ -53,7 +53,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #reel {
-	//display: none;
+	
+	background: fade(#000, 50%);
+	.videoWrapper {
+		max-width: 1000px;
+		margin:  0 auto;
+	}
+	
 }
 
 section {
@@ -110,13 +116,18 @@ section {
 		}
 		.container {
 			.col {
-				width: 34.3%;
+				width: 0;
+				opacity: 0;
+				left: -100%;
+				
 				float: left;
 				height: 30px;
 				position: relative;
-				&:last-child {
-					width: 20%;
-				}
+				
+				transition: all .5s;
+				-moz-transition: all .5s;
+				-webkit-transition: all .5s;
+				-o-transition: all .5s;
 			}
 			span {
 				.square(17px);
@@ -153,6 +164,24 @@ section {
 			}
 		}
 	}
+	
+	&.active {
+		#process-gauge {
+			.container {
+				.col {
+					left: 0;
+					width: 34.3%;
+					opacity: 1;
+					&:last-child {
+						width: 20%;
+					}
+				}
+			}
+		}
+	}
+	
+	
+	
 	
 	#timeline {
 		padding-bottom: @baseMargin * 7;
