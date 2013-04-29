@@ -11,7 +11,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
 	background: url(../img/intro-bg.png);
 	background-size: cover;
-	padding: 70px 0;
+	padding: 70px 0 0;
 	
 	h1 {
 		width: 550px;
@@ -26,7 +26,7 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: 30px;
 		width: 730px;
 		text-align: center;
-		margin: 0 auto;
+		margin: 0 auto 2em;
 	}
 }
 
@@ -95,6 +95,9 @@ section {
 
 
 #whatwedo {
+	border-bottom: 10px solid #545355;
+	padding-bottom: 5em;
+	
 	#process-gauge {
 		display: block;
 		height: 5px;
@@ -123,11 +126,7 @@ section {
 				float: left;
 				height: 30px;
 				position: relative;
-				
-				transition: all .5s;
-				-moz-transition: all .5s;
-				-webkit-transition: all .5s;
-				-o-transition: all .5s;
+				.transition(all .5s);
 			}
 			span {
 				.square(17px);
@@ -450,24 +449,71 @@ section {
 	}
 }
 					
+#ourworld {
+	
+	#team {
+		.team-member {
+			position: relative;
+			.border-radius(6px);			
+			
+			.frame-container {
+				background: none;
+				.border-radius(6px);
+				img { .border-radius(6px); }
+			}
+			
+			
+			.info {
+				position: absolute;
+				padding: 1.3em;
+				bottom: 0;
+				left: 0;
+				right: 0;
+				z-index: 10;
+				h4 {
+					font-size: 1.5em;
+					margin-bottom: .1em;
+					line-height: 1.2;
+				}
+				p {
+					font-size: .9em;
+					color: darken(@white, 50%);
+					margin-bottom: 0;
+					line-height: 1.2;
+					text-transform: uppercase;
+				}
+			}
+			&.placeholder {
+				background: fade(white, 6%);
+				.info {
+					padding: 2.5em;
+					text-align: center;
+					top: 0;
+					h4 { 
+						font-weight: 600;
+						margin-bottom: @baseMargin * 1.2;
+						margin-top: 2.5em;
+					}
+					p {
+						text-transform: none;
+						font-size: 1.05em;
+						margin-bottom: @baseMargin * 2.5;
+					}
+					.btn {
+						padding: .8em 0;
+						float: none;
+						display: block
+					}
 					
 					
-					
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+				}
+			}
+		}
+		
+		
+		.extended {
+			display: none;
+		}
+		
+	}
+}

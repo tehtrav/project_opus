@@ -37,16 +37,16 @@
 			<h1><img src="/lib/img/logo-large.png" alt=""/></h1>
 			<p>Project Opus is a small team of filmmakers with large ideas&mdash;we love to work with great teams to create ideas that change the way people think.</p>
 		</div>
+		<div id="intro-nav">
+			<nav>
+				<a class="selected" href="">Home</a>
+				<a href="#whatwedo">What we do</a>
+				<a href="">Our world</a>
+				<a href="">Our work</a>
+				<a href="">Contact</a>
+			</nav>	
+		</div>
 	</section>
-	<div id="intro-nav">
-		<nav>
-			<a class="selected" href="">Home</a>
-			<a href="#whatwedo">What we do</a>
-			<a href="">Our world</a>
-			<a href="">Our work</a>
-			<a href="">Contact</a>
-		</nav>	
-	</div>
 	
 	<section id="reel">
 		<div class="videoWrapper">
@@ -57,9 +57,9 @@
 	
 	
 	<section id="whatwedo">
-		<div class="container">
 	
-			<header>
+		<header>
+			<div class="container">
 				<div class="row-fluid">
 					<div class="span4">
 						<h2>What we do</h2>
@@ -73,221 +73,280 @@
 							<a href="">Contact</a>
 						</nav>
 					</div>
-				</div>
-			</header>
-			
-			<h3>Our process</h3>
-		</div>
+				</div><!--row-->
+			</div>
+		</header>
 		
-		<div id="process-gauge" class="">
-			<strong class="start">Start</strong>
-			<strong class="finish">Finish</strong>
-			
+		
+		<div id="process" class="subsection">
+		
 			<div class="container">
-				<div class="col one">
-					<span></span>
-				</div>
-				<div class="col two">
-					<span></span>
-				</div>
-				<div class="col three">
-					<span></span>
-				</div>
-			</div>
-		</div>
-			
-		<div class="container">
-			<div class="row-fluid spacer">
-				<div class="span4">
-					<h4>Pre-production</h4>
-					<p>Start with a plan. This is where we map out the project, write the script, cast actors, etc. ProjectOpus’s producers and directors will help you map out a plan.</p> 
-					
-					<p>Pre-production is a vital role to the process. Our team will use this time to develop a strategy that will keep your project on-time and affordable.</p> 
-					
-					<p>Storyboarding, Scripting, Casting, Scheduling, location scouting, set design, logistics.</p> 
-					
-					<p>Let’s make something.</p>
-				</div>
-				
-				<div class="span4">
-					<h4>Production</h4>
-					<p>We make something every day. We know our equipment inside and out. At this point we might be setting up tripods on the beaches of Greece or filming the Archery world-cup in Tokyo, Japan. Or even shooting on a custom set built by master carpenters at our studio in Lancaster, PA. </p>
-					<p>We’ve done the planning during the pre-production process. Now is when we execute it. </p>
-				</div>
-				
-				<div class="span4">
-					<h4>Production</h4>
-					<p>So, we’ve made it this far. Now we hand off the project to our post-production team who will edit, animate, add motion graphics, compositing, color corrections, record voice-overs, and color the final product.</p> 
-					<p>You tell us how you want it delivered: FTP? Snail Mail? Or we’ll upload it to the services of your choosing.</p> 
-				</div>
-			</div>
-			
-			
-			
-			<div id="timeline" class="row-fluid">
-				<div class="span4">
-					<p class="large-text">Now that you know what the 3-stages of video production are, 
-					let’s take a look at what the typical process might look like.</p>
-					
-					<p>There are a lot of steps to this process, but we’re here to
-					 help. We’re experienced with large projects with big moving parts. 
-					 ProjectOpus looks forward to serving you.</p>
-				</div>
-				
-				<div class="span8">
-					
-					<div class="infographic">
-						<ol>
-							<li class="step1 below"><span>Client vision meeting</span></li>
-							<li class="step2 above"><span>Develop ideas</span></li>
-							<li class="step3 below"><span>Storyboard</span></li>
-							<li class="step4 above"><span>Script</span></li>
-							<li class="step5 below"><span>Concept approval</span></li>
-							<li class="step6 above"><span>Book talent</span></li>
-							<li class="step7 below"><span>Book locations &amp; build set</span></li>
-							<li class="step8 above"><span>Schedule shoot</span></li>
-							<li class="step9 below"><span>Film</span></li>
-							<li class="step10 above"><span>Assistant editor makes a rough cut</span></li>
-							<li class="step11 below"><span>Senior editor makes revisions</span></li>
-							<li class="step12 above"><span>Motion graphics or compositing</span></li>
-							<li class="step13 below"><span>First client review</span></li>
-							<li class="step14 above"><span>Music</span></li>
-							<li class="step15 below"><span>Audio mixing</span></li>
-							<li class="step16 above"><span>Color correction</span></li>
-							<li class="step17 below"><span>Second client review</span></li>
-							<li class="step18 above"><span>Revisions &amp; refinements</span></li>
-							<li class="step19 below"><span>Client approval</span></li>
-							<li class="step20 above"><span>Delivery</span></li>
-						</ol>
+				<div class="row-fluid">
+					<div class="span12">
+						<h3>Our process</h3>
 					</div>
 				</div>
-			</div><!--timeline-->
+			</div>
 			
-			<div class="values">
-				<div class="row-fluid">
-					<div class="span5">
-						<h3>Our core values</h3>
-						<p class="large-text bright">We’re blessed to do what we love every day with a team that respects each other and loves the work they produce. Our work, and our process reflects our culture and core values. That’s why we always:</p>
-						<ol>
-							<li>Under-promise and over-deliver</li>
-							<li>Communicate thoroughly and effectively</li>
-							<li>Give & expect respect</li>
-							<li>Hold each other accountable</li>
-							<li>Make the process as pain-free for the client as possible</li>
-						</ol>
-					</div><!--span5-->
-					
-					<div class="span7 infographic">
-						<div class="one">
-							<img src="http://placehold.it/10" />
-							<span>Excellence</span>
-						</div>
-						<div class="two">
-							<img src="http://placehold.it/10" />
-							<span>Respect</span>
-						</div>
-						<div class="three">
-							<img src="http://placehold.it/10" />
-							<span>Trust</span>
-						</div>
+			<div id="process-gauge" class="">
+				<strong class="start">Start</strong>
+				<strong class="finish">Finish</strong>
+				
+				<div class="container">
+					<div class="col one">
+						<span></span>
+					</div>
+					<div class="col two">
+						<span></span>
+					</div>
+					<div class="col three">
+						<span></span>
+					</div>
+				</div>
+			</div>
+				
+			<div class="container">
+				<div class="row-fluid spacer">
+					<div class="span4">
+						<h4>Pre-production</h4>
+						<p>Start with a plan. This is where we map out the project, write the script, cast actors, etc. ProjectOpus’s producers and directors will help you map out a plan.</p> 
 						
-					</div><!--span7-->
+						<p>Pre-production is a vital role to the process. Our team will use this time to develop a strategy that will keep your project on-time and affordable.</p> 
+						
+						<p>Storyboarding, Scripting, Casting, Scheduling, location scouting, set design, logistics.</p> 
+						
+						<p>Let’s make something.</p>
+					</div>
+					
+					<div class="span4">
+						<h4>Production</h4>
+						<p>We make something every day. We know our equipment inside and out. At this point we might be setting up tripods on the beaches of Greece or filming the Archery world-cup in Tokyo, Japan. Or even shooting on a custom set built by master carpenters at our studio in Lancaster, PA. </p>
+						<p>We’ve done the planning during the pre-production process. Now is when we execute it. </p>
+					</div>
+					
+					<div class="span4">
+						<h4>Production</h4>
+						<p>So, we’ve made it this far. Now we hand off the project to our post-production team who will edit, animate, add motion graphics, compositing, color corrections, record voice-overs, and color the final product.</p> 
+						<p>You tell us how you want it delivered: FTP? Snail Mail? Or we’ll upload it to the services of your choosing.</p> 
+					</div>
+				</div>
+				
+				
+				
+				<div id="timeline" class="row-fluid spacer">
+					<div class="span4">
+						<p class="large-text">Now that you know what the 3-stages of video production are, 
+						let’s take a look at what the typical process might look like.</p>
+						
+						<p>There are a lot of steps to this process, but we’re here to
+						 help. We’re experienced with large projects with big moving parts. 
+						 ProjectOpus looks forward to serving you.</p>
+					</div>
+					
+					<div class="span8">
+						
+						<div class="infographic">
+							<ol>
+								<li class="step1 below"><span>Client vision meeting</span></li>
+								<li class="step2 above"><span>Develop ideas</span></li>
+								<li class="step3 below"><span>Storyboard</span></li>
+								<li class="step4 above"><span>Script</span></li>
+								<li class="step5 below"><span>Concept approval</span></li>
+								<li class="step6 above"><span>Book talent</span></li>
+								<li class="step7 below"><span>Book locations &amp; build set</span></li>
+								<li class="step8 above"><span>Schedule shoot</span></li>
+								<li class="step9 below"><span>Film</span></li>
+								<li class="step10 above"><span>Assistant editor makes a rough cut</span></li>
+								<li class="step11 below"><span>Senior editor makes revisions</span></li>
+								<li class="step12 above"><span>Motion graphics or compositing</span></li>
+								<li class="step13 below"><span>First client review</span></li>
+								<li class="step14 above"><span>Music</span></li>
+								<li class="step15 below"><span>Audio mixing</span></li>
+								<li class="step16 above"><span>Color correction</span></li>
+								<li class="step17 below"><span>Second client review</span></li>
+								<li class="step18 above"><span>Revisions &amp; refinements</span></li>
+								<li class="step19 below"><span>Client approval</span></li>
+								<li class="step20 above"><span>Delivery</span></li>
+							</ol>
+						</div>
+					</div>
+				</div><!--timeline-->
+			</div>
+		
+		</div><!--#process-->
+		
+		<div id="services" class="subsection">
+			<div class="container">
+			
+				<div class="row-fluid">
+					<div class="span12">
+						<h3 class="lead">Our services</h3>
+					</div>
+				</div>
+	
+				<div class="row-fluid spacer">
+					<div class="span3">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://dummyimage.com/540x3:2" alt="" />
+							</div>
+						</div>
+						<h4>Video production</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eit anim id est laborum.</p>
+					</div>
+					
+					<div class="span3">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://dummyimage.com/540x3:2" alt="" />
+							</div>
+						</div>
+						<h4>Video production</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eit anim id est laborum.</p>
+					</div>
+					
+					<div class="span3">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://dummyimage.com/540x3:2" alt="" />
+							</div>
+						</div>
+						<h4>Video production</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eit anim id est laborum.</p>
+					</div>
+					
+					<div class="span3">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://dummyimage.com/540x3:2" alt="" />
+							</div>
+						</div>
+						<h4>Video production</h4>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud eit anim id est laborum.</p>
+					</div>
+				</div><!--row-->
+			</div><!--container-->
+					
+		</div><!--services-->
+		
+	</section><!--whatwedo-->
+	<section id="ourworld">
+		<header>
+			<div class="container">
+				<div class="row-fluid">
+					<div class="span4">
+						<h2>Our world</h2>
+					</div>
+					<div class="span8">
+						<nav>
+							<a href="">Home</a>
+							<a href="#whatwedo">What we do</a>
+							<a class="selected" href="">Our world</a>
+							<a href="">Our work</a>
+							<a href="">Contact</a>
+						</nav>
+					</div>
+				</div>
+			</div><!--container-->
+		</header>
+	
+	
+	
+		<div class="subsection" id="team">
+			<div class="container">
+			
+				<div class="row-fluid">
+					<div class="span12">
+						<h3 class="lead">The team</h3>
+					</div>
+				</div>
+			
+				<div class="row-fluid">
+					<div class="span4">
+						<div class="team-member">
+							<div class="frame-container">
+								<div class="frame">
+									<img src="http://d.pr/MChl+" alt="" />
+								</div>
+							</div>
+							
+							<div class="info">
+								<h4>Travis Detweiler</h4>
+								<p>Creative Director</p>
+							</div>
+							
+							<div class="extended">
+								<div class="info">
+									<h4>Travis Detweiler</h4>
+									<p>Creative Director</p>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi</p>
+								<p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<ul class="social-list">
+									<li><a href="">Twitter</a></li>
+									<li><a href="">Facebook</a></li>
+									<li><a href="">Instagram</a></li>
+								</ul>
+							</div>
+						</div><!--team-member-->
+					</div><!--span-->
+					
+					<div class="span4">
+						<div class="team-member">
+							<div class="frame-container">
+								<div class="frame">
+									<img src="http://d.pr/5TQK+" alt="" />
+								</div>
+							</div>
+							
+							<div class="info">
+								<h4>Alejandro Zapata</h4>
+								<p>Production/Post-production supervisor</p>
+							</div>
+							
+							<div class="extended">
+								<div class="info">
+									<h4>Travis Detweiler</h4>
+									<p>Creative Director</p>
+								</div>
+								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi</p>
+								<p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+								<ul class="social-list">
+									<li><a href="">Twitter</a></li>
+									<li><a href="">Facebook</a></li>
+									<li><a href="">Instagram</a></li>
+								</ul>
+							</div>
+						</div><!--team-member-->
+					</div><!--span-->
+					
+					<div class="span4">
+						<div class="team-member placeholder">
+							<div class="frame-container">
+								<div class="frame">
+									<img src="http://upload.wikimedia.org/wikipedia/commons/5/52/Spacer.gif" alt="" />
+								</div>
+							</div>
+							<div class="info">
+								<h4>This could be you</h4>
+								<p>Project Opus is always looking for new talent. If you think you’d fit our company we’d love to hear from you.</p>
+								
+								<a class="btn btn-primary" href="mailto:jobs@project">Contact us about opportunities</a>
+							</div>
+							
+						</div><!--team-member-->
+					</div><!--span-->
+					
 					
 				</div><!--row-->
-			</div><!--values-->
-			
-			
-			
-			
-			
-		</div>
-	
-	
-	</section><!--whatwedo-->
-	
-    
+			</div><!--container-->
+		</div><!--team-->
+		
+		
+		
 
 
-
-
-<!--
-<div class="container">
-
-  <div class="marketing">
-
-    <h1>Introducing Bootstrap.</h1>
-    <p class="marketing-byline">Need reasons to love Bootstrap? Look no further.</p>
-
-    <div class="row-fluid">
-      <div class="span4">
-        <img class="marketing-img" src="/lib/img/bs-docs-twitter-github.png">
-        <h2>By nerds, for nerds.</h2>
-        <p>Built at Twitter by <a href="http://twitter.com/mdo">@mdo</a> and <a href="http://twitter.com/fat">@fat</a>, Bootstrap utilizes <a href="http://lesscss.org">LESS CSS</a>, is compiled via <a href="http://nodejs.org">Node</a>, and is managed through <a href="http://github.com">GitHub</a> to help nerds do awesome stuff on the web.</p>
-      </div>
-      <div class="span4">
-        <img class="marketing-img" src="/lib/img/bs-docs-responsive-illustrations.png">
-        <h2>Made for everyone.</h2>
-        <p>Bootstrap was made to not only look and behave great in the latest desktop browsers (as well as IE7!), but in tablet and smartphone browsers via <a href="./scaffolding.html#responsive">responsive CSS</a> as well.</p>
-      </div>
-      <div class="span4">
-        <img class="marketing-img" src="/lib/img/bs-docs-bootstrap-features.png">
-        <h2>Packed with features.</h2>
-        <p>A 12-column responsive <a href="./scaffolding.html#gridSystem">grid</a>, dozens of components, <a href="./javascript.html">JavaScript plugins</a>, typography, form controls, and even a <a href="./customize.html">web-based Customizer</a> to make Bootstrap your own.</p>
-      </div>
-    </div>
-
-    <hr class="soften">
-
-    <h1>Built with Bootstrap.</h1>
-    <p class="marketing-byline">For even more sites built with Bootstrap, <a href="http://builtwithbootstrap.tumblr.com/" target="_blank">visit the unofficial Tumblr</a> or <a href="./getting-started.html#examples">browse the examples</a>.</p>
-    <div class="row-fluid">
-      <ul class="thumbnails example-sites">
-        <li class="span3">
-          <a class="thumbnail" href="http://soundready.fm/" target="_blank">
-            <img src="/lib/img/example-sites/soundready.png" alt="SoundReady.fm">
-          </a>
-        </li>
-        <li class="span3">
-          <a class="thumbnail" href="http://kippt.com/" target="_blank">
-            <img src="/lib/img/example-sites/kippt.png" alt="Kippt">
-          </a>
-        </li>
-        <li class="span3">
-          <a class="thumbnail" href="http://www.gathercontent.com/" target="_blank">
-            <img src="/lib/img/example-sites/gathercontent.png" alt="Gather Content">
-          </a>
-        </li>
-        <li class="span3">
-          <a class="thumbnail" href="http://www.jshint.com/" target="_blank">
-            <img src="/lib/img/example-sites/jshint.png" alt="JS Hint">
-          </a>
-        </li>
-      </ul>
-     </div>
-
-  </div>
-
-</div>
-
-
-
-    <footer class="footer">
-      <div class="container">
-        <p>Designed and built with all the love in the world by <a href="http://twitter.com/mdo" target="_blank">@mdo</a> and <a href="http://twitter.com/fat" target="_blank">@fat</a>.</p>
-        <p>Code licensed under <a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank">Apache License v2.0</a>, documentation under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <p><a href="http://glyphicons.com">Glyphicons Free</a> licensed under <a href="http://creativecommons.org/licenses/by/3.0/">CC BY 3.0</a>.</p>
-        <ul class="footer-links">
-          <li><a href="http://blog.getbootstrap.com">Blog</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/issues?state=open">Issues</a></li>
-          <li class="muted">&middot;</li>
-          <li><a href="https://github.com/twitter/bootstrap/blob/master/CHANGELOG.md">Changelog</a></li>
-        </ul>
-      </div>
-    </footer>
-
--->
-
+	</section>
 
     <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
     <script src="/lib/js/jquery.js"></script>
@@ -306,11 +365,6 @@
     <script src="/lib/js/bootstrap-affix.js"></script>
     <script src="/lib/js/waypoints.min.js"></script>
     <script src="/lib/js/min/scripts-min.js"></script>
-
-<!--    <script src="/lib/js/holder/holder.js"></script>-->
-<!--    <script src="/lib/js/google-code-prettify/prettify.js"></script>-->
-
-
 
   </body>
 </html>
