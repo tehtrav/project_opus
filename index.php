@@ -187,8 +187,8 @@
 				<div class="row-fluid spacer">
 					<div class="span3">
 						<div class="frame-container">
-							<div class="frame">
-								<img src="http://dummyimage.com/540x3:2" alt="" />
+							<div class="frame bordered">
+								<img src="http://lorempixel.com/540/360/city/1" alt="" />
 							</div>
 						</div>
 						<h4>Video production</h4>
@@ -198,7 +198,7 @@
 					<div class="span3">
 						<div class="frame-container">
 							<div class="frame">
-								<img src="http://dummyimage.com/540x3:2" alt="" />
+								<img src="http://lorempixel.com/540/360/city/2" alt="" />
 							</div>
 						</div>
 						<h4>Video production</h4>
@@ -208,7 +208,7 @@
 					<div class="span3">
 						<div class="frame-container">
 							<div class="frame">
-								<img src="http://dummyimage.com/540x3:2" alt="" />
+								<img src="http://lorempixel.com/540/360/city/3" alt="" />
 							</div>
 						</div>
 						<h4>Video production</h4>
@@ -218,7 +218,7 @@
 					<div class="span3">
 						<div class="frame-container">
 							<div class="frame">
-								<img src="http://dummyimage.com/540x3:2" alt="" />
+								<img src="http://lorempixel.com/540/360/city/4" alt="" />
 							</div>
 						</div>
 						<h4>Video production</h4>
@@ -252,7 +252,7 @@
 	
 	
 	
-		<div class="subsection" id="team">
+		<div class="subsection spacer" id="team">
 			<div class="container">
 			
 				<div class="row-fluid">
@@ -342,7 +342,151 @@
 			</div><!--container-->
 		</div><!--team-->
 		
-		
+		<div id="whatwereupto">
+			<div class="container">
+			
+				<div class="row-fluid">
+					<div class="span12">
+						<h3 class="lead">What we're up to</h3>
+					</div>
+				</div>
+			
+				<div class="row-fluid">
+					
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					
+					<div class="span2 alpha">
+						<div class="frame-container">
+							<div class="frame outset">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					
+					<div class="span2 alpha">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					<div class="span2">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://lorempixel.com/300/300/city/4" alt="" />
+							</div>
+						</div>
+					</div>
+					
+					
+						
+				</div><!--row-->
+			</div>
+		</div><!--what we up to-->
 		
 
 
