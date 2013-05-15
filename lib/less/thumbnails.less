@@ -6,8 +6,7 @@ video {
 
 .videoWrapper {
 	position: relative;
-	padding-bottom: 55%; /* 16:9 */
-	padding-top: 25px;
+	padding-bottom: 56.25%; /* 16:9 */
 	height: 0;
 }
 .videoWrapper iframe {
@@ -32,6 +31,7 @@ video {
   margin-left: -@gridGutterWidth;
   list-style: none;
   .clearfix();
+  padding-left: 0;
 }
 // Fluid rows have no left margin
 .row-fluid .thumbnails {
@@ -41,7 +41,7 @@ video {
 // Float li to make thumbnails appear in a row
 .thumbnails > li {
   float: left; // Explicity set the float since we don't require .span* classes
-  margin-bottom: @baseLineHeight;
+  margin-bottom: @gridGutterWidth;
   margin-left: @gridGutterWidth;
 }
 
