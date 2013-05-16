@@ -47,10 +47,10 @@
 		
 		<div id="intro-nav" class="">
 			<nav>
-				<a class="selected" href="#intro">Home</a>
+				<!--<a class="selected" href="#intro">Home</a>-->
 				<a href="#whatwedo">What we do</a>
-				<a href="#ourworld">Our world</a>
-				<a href="#ourwork">Our work</a>
+				<a href="#ourworld"><span class="non-essential">Our</span> world</a>
+				<a href="#ourwork"><span class="non-essential">Our</span> work</a>
 				<a href="#contact">Contact</a>
 			</nav>	
 		</div>
@@ -63,6 +63,7 @@
 	
 	</section><!--reel-->
 	
+	<div class="trigger-shim"></div>
 	
 	<section id="whatwedo">
 	
@@ -74,10 +75,10 @@
 					</div>
 					<div class="span8">
 						<nav>
-							<a href="#intro">Home</a>
+							<!--<a href="#intro">Home</a>-->
 							<a class="selected" href="#whatwedo">What we do</a>
-							<a href="#ourworld">Our world</a>
-							<a href="#ourwork">Our work</a>
+							<a href="#ourworld"><span class="non-essential">Our</span> world</a>
+							<a href="#ourwork"><span class="non-essential">Our</span> work</a>
 							<a href="#contact">Contact</a>
 							
 							
@@ -266,8 +267,10 @@
 								<img src="http://lorempixel.com/540/360/city/1" alt="" />
 							</div>
 						</div>
-						<h4>Video production</h4>
-						<p>We use top of the line cameras, lighting, support, and audio equipment to produce the finest quality videos for our clients. </p>
+						<div class="info">
+							<h4>Video production</h4>
+							<p>We use top of the line cameras, lighting, support, and audio equipment to produce the finest quality videos for our clients. </p>
+						</div>
 					</div>
 					
 					<div class="span3">
@@ -276,8 +279,10 @@
 								<img src="http://lorempixel.com/540/360/city/2" alt="" />
 							</div>
 						</div>
-						<h4>Motion graphics</h4>
-						<p>Graphics that use video and/or animation to move or rotate images. Moving text? Words or images moving around a video? Motion graphics can be used stand-alone in an informative video or simply to add dynamics in a cost effective way to a talking head interview.</p>
+						<div class="info">
+							<h4>Motion graphics</h4>
+							<p>Graphics that use video and/or animation to move or rotate images. Moving text? Words or images moving around a video? Motion graphics can be used stand-alone in an informative video or simply to add dynamics in a cost effective way to a talking head interview.</p>
+						</div>
 					</div>
 					
 					<div class="span3">
@@ -286,8 +291,10 @@
 								<img src="http://lorempixel.com/540/360/city/3" alt="" />
 							</div>
 						</div>
-						<h4>Animation &amp; 3D modeling</h4>
-						<p>Want a custom virtual stage? Have a product you want to showcase in pieces? We can custom build elements to suit your needs. We have the tools to do incredible 2D or 3D imaging.</p>
+						<div class="info">
+							<h4>Animation &amp; 3D modeling</h4>
+							<p>Want a custom virtual stage? Have a product you want to showcase in pieces? We can custom build elements to suit your needs. We have the tools to do incredible 2D or 3D imaging.</p>
+						</div>
 					</div>
 					
 					<div class="span3">
@@ -296,15 +303,21 @@
 								<img src="http://lorempixel.com/540/360/city/4" alt="" />
 							</div>
 						</div>
-						<h4>Compositing</h4>
-						<p>Combining visual elements from multiple sources into a single video. This can simply be adding motion graphic elements to a live-action video or by using a green screen to put talent on a virtual stage. </p>
+						<div class="info">
+							<h4>Compositing</h4>
+							<p>Combining visual elements from multiple sources into a single video. This can simply be adding motion graphic elements to a live-action video or by using a green screen to put talent on a virtual stage. </p>
+						</div>
 					</div>
 				</div><!--row-->
 			</div><!--container-->
 					
 		</div><!--services-->
 		
+		
+		
+		
 	</section><!--whatwedo-->
+	<div class="trigger-shim"></div>
 	<section id="ourworld">
 		<header>
 			<div class="container">
@@ -314,10 +327,10 @@
 					</div>
 					<div class="span8">
 						<nav>
-							<a href="#intro">Home</a>
+							<!--<a href="#intro">Home</a>-->
 							<a href="#whatwedo">What we do</a>
-							<a class="selected" href="#ourworld">Our world</a>
-							<a href="#ourwork">Our work</a>
+							<a class="selected" href="#ourworld"><span class="non-essential">Our</span> world</a>
+							<a href="#ourwork"><span class="non-essential">Our</span> work</a>
 							<a href="#contact">Contact</a>
 							
 							
@@ -429,7 +442,7 @@
 								</div>
 							</div>
 							<div class="info">
-								<h4>This could be you</h4>
+								<h4>This could be you.</h4>
 								<p>Project Opus is always looking for new talent. If you think you’d fit our company we’d love to hear from you.</p>
 								
 								<a class="btn btn-primary" href="mailto:info@projectopusfilms.com">Contact us about opportunities</a>
@@ -598,12 +611,7 @@
 		</div><!--what we up to-->
 	</section>
 	
-	
-	
-	
-	
-	
-	
+	<div class="trigger-shim"></div>
 	
 	<section id="ourwork">
 		<header>
@@ -614,10 +622,10 @@
 					</div>
 					<div class="span8">
 						<nav>
-							<a href="#intro">Home</a>
+							<!--<a href="#intro">Home</a>-->
 							<a href="#whatwedo">What we do</a>
-							<a href="#ourworld">Our world</a>
-							<a class="selected" href="#ourwork">Our work</a>
+							<a href="#ourworld"><span class="non-essential">Our</span> world</a>
+							<a class="selected" href="#ourwork"><span class="non-essential">Our</span> work</a>
 							<a href="#contact">Contact</a>
 						</nav>
 					</div>
@@ -629,6 +637,99 @@
 			<div class="container">
 			
 				<div class="row-fluid">
+					<div class="span4 project">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://dummyimage.com/540x3:2" alt="" />
+							</div>
+						</div>
+						<div class="info">
+							<h4>Veritas Press Documentary</h4>
+							<p>Documentary</p>
+						</div>
+						<div class="extended">
+							<div class="container">
+							
+								<div class="videoWrapper">
+									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+								</div>
+							
+								<div class="info">
+									<h4>Veritas Press Documentary</h4>
+									<p>Documentary</p>
+								</div>
+								<p>Veritas Press came to us looking to make a promotional video explaining Classical 
+								Christian Education. Through our discussion, we decided to make a short form documentary 
+								about the history of Classical Christian Education. This video is a great example of 
+								Content Marketing. It was used as a free handout in order to  acquire customers.</p> 
+							
+							</div>
+						</div>
+						
+					</div>
+					
+					
+					<div class="span4 project">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://dummyimage.com/540x3:2" alt="" />
+							</div>
+						</div>
+						<div class="info">
+							<h4>Veritas Press Omnibus Self-Paced</h4>
+							<p>Documentary</p>
+						</div>
+						<div class="extended">
+							<div class="container">
+							
+								<div class="videoWrapper">
+									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+								</div>
+							
+								<div class="info">
+									<h4>Veritas Press Omnibus Self-Paced</h4>
+									<p>Documentary</p>
+								</div>
+								<p>After the great success of the VP self-paced elementary courses, Veritas Press decided to expand the self-paced courses to 7-12th grades. Instead of making your standard lecture course, we decided to spice it up by interviewing experts in the fields, traveling to historical sites, utilizing cultural street interviews around the world, along with engaging activities and quizzes. We not only created an alternative method to learn, but have created a superior option.</p> 
+							
+							</div>
+						</div>
+						
+					</div>
+					
+					
+					<div class="span4 project">
+						<div class="frame-container">
+							<div class="frame">
+								<img src="http://dummyimage.com/540x3:2" alt="" />
+							</div>
+						</div>
+						<div class="info">
+							<h4>Veritas Press Documentary</h4>
+							<p>Documentary</p>
+						</div>
+						<div class="extended">
+							<div class="container">
+							
+								<div class="videoWrapper">
+									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
+								</div>
+							
+								<div class="info">
+									<h4>Veritas Press Documentary</h4>
+									<p>Documentary</p>
+								</div>
+								<p>Veritas Press came to us looking to make a promotional video explaining Classical 
+								Christian Education. Through our discussion, we decided to make a short form documentary 
+								about the history of Classical Christian Education. This video is a great example of 
+								Content Marketing. It was used as a free handout in order to  acquire customers.</p> 
+							
+							</div>
+						</div>
+						
+					</div>
+					
+					
 					<div class="span4 project">
 						<div class="frame-container">
 							<div class="frame">
@@ -730,6 +831,9 @@
 			</div>
 		</div>
 	</section>
+	
+	<div class="trigger-shim"></div>
+	
 	<section id="contact">
 		<header>
 			<div class="container">
@@ -739,10 +843,10 @@
 					</div>
 					<div class="span8">
 						<nav>
-							<a href="#intro">Home</a>
+							<!--<a href="#intro">Home</a>-->
 							<a href="#whatwedo">What we do</a>
-							<a href="#ourworld">Our world</a>
-							<a href="#ourwork">Our work</a>
+							<a href="#ourworld"><span class="non-essential">Our</span> world</a>
+							<a href="#ourwork"><span class="non-essential">Our</span> work</a>
 							<a class="selected" href="#contact">Contact</a>
 						</nav>
 					</div>
