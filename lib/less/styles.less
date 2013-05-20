@@ -1,3 +1,9 @@
+#reel, #whatwedo, #contact {
+	display: none;
+}
+
+
+
 body {
 	background: @bodyBackground url(../img/body-bg.png);
 	padding: 0;
@@ -5,7 +11,7 @@ body {
 
 	//.non-essential { display: none; }
 	
-	@media screen and (min-width: 728px) {
+	@media screen and (min-width: 768px) {
 		margin: 0;
 	}
 	
@@ -18,7 +24,7 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-	font-weight: 600;
+	font-weight: 500;
 	letter-spacing: 1px;
 }
 
@@ -36,7 +42,7 @@ h1, h2, h3, h4, h5, h6 {
 		padding: 0 50px;
 	}
 	
-	@media screen and (min-width: 980px) {
+	@media screen and (min-width: 768px) {
 		padding: 0;
 	}
 	
@@ -49,7 +55,7 @@ section {
 	header {
 		.clearfix();
 		padding: 60px 0 0;
-		@media screen and (min-width: 728px) {
+		@media screen and (min-width: 768px) {
 			padding: 60px 0;
 		}
 
@@ -76,7 +82,7 @@ section {
 
 			}
 			
-			@media screen and (min-width: 728px) {
+			@media screen and (min-width: 768px) {
 				float: left;
 				padding: 0;
 				background: none;
@@ -93,7 +99,7 @@ section {
 		
 		nav {
 			display: none;
-			@media screen and (min-width: 728px) {
+			@media screen and (min-width: 768px) {
 				display: block;
 				text-align: right;
 				margin-top: -12px;
@@ -188,7 +194,7 @@ section {
 	}
 	
 	// mobile landscape & up
-	@media screen and (min-width: 728px) {
+	@media screen and (min-width: 768px) {
 		padding: 70px 0 0;
 		height: auto;
 		position: static;
@@ -271,7 +277,7 @@ section {
 	
 	
 	
-	@media screen and (min-width: 728px) {
+	@media screen and (min-width: 768px) {
 		position: static;
 		opacity: 1;
 		background: @teal url('../img/intro-nav-bg.png');
@@ -416,8 +422,12 @@ section {
 		
 		.infographic {
 		
-			@media screen and (min-width: 728px) {
+			@media screen and (min-width: 768px) {
 				position: relative;
+				top: -160px;
+				
+				margin-bottom: 200px;
+				
 				&:after {
 					content: " ";
 					display: block;
@@ -605,7 +615,7 @@ section {
 		ol {
 			list-style-type: none;
 			margin-left: 0;
-			padding: 2em 0 0;
+			padding: 2em 0;
 					  
 			& > li {
 				counter-increment: customlistcounter;
@@ -618,7 +628,7 @@ section {
 					float: left;
 					margin: -4px @baseMargin * 1.3 0 0;
 					display: block;
-					line-height: .9;
+					line-height: .4;
 					background: @orange;
 					text-align: center;
 					.square(12px);
@@ -686,27 +696,19 @@ section {
 	
 	border-bottom: 10px solid #545355;
 	padding-bottom: 5em;
-	
+
 	#team {
-		padding-bottom: 4em;
+		
 		.team-member {
-			position: relative;
-			.border-radius(6px);			
+			margin-bottom: 8em;
 			
 			.frame-container {
 				background: none;
 				.border-radius(6px);
 				img { .border-radius(6px); }
 			}
-			
-			
 			.info {
-				position: absolute;
-				padding: 1.3em;
-				bottom: 0;
-				left: 0;
-				right: 0;
-				z-index: 2;
+				margin-bottom: 1em;
 				h4 {
 					font-size: 1.5em;
 					margin-bottom: .1em;
@@ -720,63 +722,206 @@ section {
 					text-transform: uppercase;
 				}
 			}
+			.extended {
+				.info { display: none; }
+			}
+		
 			&.placeholder {
-				background: fade(white, 6%);
+				text-align: center;
+				p {
+					font-size: 15px;
+					text-transform: none;
+					margin-bottom: 20px;
+				}
+				.frame-container {
+					display: none;
+				}
+			}
+		
+		} // .team-member
+		
+		@media screen and (min-width: 480px) {
+			.team-member {
+				.clearfix();
+				.frame-container {
+					float: left;
+					width: 25%;
+					.border-radius(100px);
+					img { .border-radius(100px); }
+				}
+				
+				.info, .extended {
+					float: right;
+					width: 70%;
+				}
+				
+				
+			}
+		}
+		
+		@media screen and (min-width: 768px) {
+			.team-member {
+				margin-bottom: 0;
+				position: relative;
+				
+				.frame-container {
+					width: auto;
+					float: none;
+					margin: 0;
+					.border-radius(6px);
+					img { .border-radius(6px); }
+				}
+				
 				.info {
-					padding: 2.5em;
-					text-align: center;
-					top: 0;
-					h4 { 
-						font-weight: 600;
-						margin-bottom: @baseMargin * 1.2;
-						margin-top: 2.5em;
+					width: auto;
+					float: none;
+					display: block;
+					position: absolute;
+					padding: 1.3em;
+					bottom: 0;
+					left: 0;
+					right: 0;
+					z-index: 2;
+					h4 {
+						font-size: 1.5em;
+						margin-bottom: .1em;
+						line-height: 1.2;
 					}
 					p {
-						text-transform: none;
-						font-size: 1.05em;
-						margin-bottom: @baseMargin * 2.5;
-					}
-					.btn {
-						padding: .8em 0;
-						float: none;
-						display: block
+						font-size: .9em;
+						color: darken(@white, 50%);
+						margin-bottom: 0;
+						line-height: 1.2;
+						text-transform: uppercase;
 					}
 				}
-			}
-			
-			.extended { 
-				display: none;
-				position: fixed;
-				background: rgba(40,37,41, .98);
-				left: 0; 
-				right: 0;
-				top: 0;
-				bottom: 0;
-				z-index: 10000;
-				.container {
-					position: absolute;
-					width: 600px;
-					top: 50%;
-					margin-top: -300px;
-					left: 50%;
-					margin-left: -400px;
-					padding: 100px;
-					.info {
-						position: static;
-						padding: 0 0 1em 0;
-					}
-				}
-			}
-			
-			&.active {
+				
 				.extended { 
-					display: block;
+					display: none;
+					width: auto;
+					float: none;
+					position: fixed;
+					background: rgba(40,37,41, .98);
+					left: 0; 
+					right: 0;
+					top: 0;
+					bottom: 0;
+					z-index: 10000;
+					.holder {
+						position: absolute;
+						width: 600px;
+						top: 50%;
+						margin-top: -300px;
+						left: 50%;
+						margin-left: -400px;
+						padding: 100px;
+						.info {
+							display: block;
+							position: static;
+							padding: 0 0 1em 0;
+						}
+					}
+				}
+				
+				&.placeholder {
+					background: fade(#fff, 7%);
+					.clearfix();
+					.border-radius(6px);
+					.frame-container {
+						display: block;
+						margin: 0;
+						.frame {
+							margin: 0;
+						}
+					}
+					.info {
+						padding: 1em;
+						text-align: center;
+						top: 0;
+						h4 { 
+							font-weight: 600;
+							margin-bottom: 10px;
+							margin-top: 20px;
+							font-size: 18px
+						}
+						p {
+							text-transform: none;
+							font-size: 14px;
+							margin-bottom: 15px;
+						}
+						.btn {
+							padding: .5em 0;
+							float: none;
+							display: block
+						}
+					}
+				}
+
+				
+				&.active {
+					.extended { 
+						display: block;
+					}
 				}
 			}
-			
-			
 		}
-	}
+		
+		@media screen and (min-width: 769px) {
+			.team-member {
+				&.placeholder {
+					 .info {
+					 	padding: 2em;
+						h4 { 
+							margin-top: 30px;
+							font-size: 22px;
+						}
+						p {
+							text-transform: none;
+							font-size: 16px;
+							//padding: 0 10px;
+							
+						}
+						.btn {
+							padding: .5em 0;
+							float: none;
+							display: block
+						}
+					}
+				}
+			}
+		}
+		
+		@media screen and (min-width: 1025px) {
+			.team-member {
+				&.placeholder {
+					 .info {
+					 	padding: 3em;
+						h4 { 
+							margin-top: 50px;
+							font-size: 24px;
+							margin-bottom: 20px;
+						}
+						p {
+							text-transform: none;
+							font-size: 16px;
+							margin-bottom: 30px;
+							//padding: 0 10px;
+							
+						}
+						.btn {
+							padding: .8em 0;
+							float: none;
+							display: block
+						}
+					}
+				}
+			}
+		}
+		
+		
+		
+		
+	} //#team
 	
 	#whatwereupto {
 		.follow {
@@ -838,6 +983,7 @@ section {
 			&.i-instagram em {background-image: url(/lib/img/social-icons/instagram.png)}
 			&.i-facebook em {background-image: url(/lib/img/social-icons/facebook.png)}
 			&.i-twitter em {background-image: url(/lib/img/social-icons/twitter.png)}
+			&.i-email em {background-image: url(/lib/img/social-icons/email.png)}
 			
 			&:hover {
 				em {
@@ -879,11 +1025,6 @@ section {
 				padding: 0;
 			}
 		}
-		
-		
-		
-		
-		
 	}
 	
 	
@@ -893,15 +1034,17 @@ section {
 
 	}
 	
-	// small tablet portrait
 	@media screen and (min-width: 600px) {
-
-	}
-	
-	@media screen and (min-width: 720px) {
 		.project {
 			
-			margin-bottom: 0;
+			margin-bottom: 30px;
+			float: left;
+			clear:  none;
+			width: 47%;
+			margin-right: 4.9%;
+			&:nth-child(even) { margin-right:0; }
+			&:nth-child(odd) { clear: left; }
+			
 			.frame-container {
 				display: block;
 			}

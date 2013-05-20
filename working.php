@@ -94,7 +94,7 @@
 			<div class="container">
 				<div class="row-fluid">
 					<div class="span12">
-						<h3>Our process</h3>
+						<h3>Our Process</h3>
 					</div>
 				</div>
 			</div>
@@ -195,7 +195,7 @@
 			
 				<div class="row-fluid">
 					<div class="span12">
-						<h3 class="lead">Our core values</h3>
+						<h3 class="lead">Our Core Values</h3>
 					</div>
 				</div>
 		
@@ -254,7 +254,7 @@
 			
 				<div class="row-fluid">
 					<div class="span12">
-						<h3 class="lead">Our services</h3>
+						<h3 class="lead">Our Services</h3>
 						<p class="large-text">ProjectOpus is your one stop shop for all of your video needs: HD Video Production, Motion Graphics, Animation and 3D Modeling. 
 						</p>
 					</div>
@@ -268,7 +268,7 @@
 							</div>
 						</div>
 						<div class="info">
-							<h4>Video production</h4>
+							<h4>Video Production</h4>
 							<p>We use top of the line cameras, lighting, support, and audio equipment to produce the finest quality videos for our clients. </p>
 						</div>
 					</div>
@@ -280,7 +280,7 @@
 							</div>
 						</div>
 						<div class="info">
-							<h4>Motion graphics</h4>
+							<h4>Motion Graphics</h4>
 							<p>Graphics that use video and/or animation to move or rotate images. Moving text? Words or images moving around a video? Motion graphics can be used stand-alone in an informative video or simply to add dynamics in a cost effective way to a talking head interview.</p>
 						</div>
 					</div>
@@ -292,7 +292,7 @@
 							</div>
 						</div>
 						<div class="info">
-							<h4>Animation &amp; 3D modeling</h4>
+							<h4>Animation &amp; 3D Modeling</h4>
 							<p>Want a custom virtual stage? Have a product you want to showcase in pieces? We can custom build elements to suit your needs. We have the tools to do incredible 2D or 3D imaging.</p>
 						</div>
 					</div>
@@ -322,10 +322,10 @@
 		<header>
 			<div class="container">
 				<div class="row-fluid">
-					<div class="span4">
+					<div class="span5">
 						<h2>Our world</h2>
 					</div>
-					<div class="span8">
+					<div class="span7">
 						<nav>
 							<!--<a href="#intro">Home</a>-->
 							<a href="#whatwedo">What we do</a>
@@ -348,7 +348,7 @@
 			
 				<div class="row-fluid">
 					<div class="span12">
-						<h3 class="lead">The team</h3>
+						<h3 class="lead">Our Team</h3>
 					</div>
 				</div>
 			
@@ -367,25 +367,21 @@
 							</div>
 							
 							<div class="extended">
-								<div class="container">
+								<div class="holder">
 								<div class="info">
 									<h4>Travis Detweiler</h4>
 									<p>Creative Director</p>
 								</div>
-								<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderi</p>
-								<p>Voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-								
 								
 								<p>Travis has worked with various names such as Zac Brown, Fuzzy Zoeller, Kirk Cameron, Brady Ellison and companies like Veritas Press, Lancaster Archery, and Kimray, inc.</p>
 								<p>Travis is responsible for the big picture. He works with all the departments to make the projects come together seamlessly. On set he’ll be directing actors or helping nervous clients loosen up in front of the camera.</p> 
 								<p>Occasionally Travis breaks out his pilots license to fly the team to a location. Travis is here to help you with your vision.</p>
 								
-								<p><a class="btn btn-primary" href="mailto:travis@projectopusfilms.com">Email Travis</a></p>
-
 								<ul class="social-list">
 									<li><a class="i-twitter" href=""><em>Twitter</em></a></li>
 									<li><a class="i-facebook" href=""><em>Facebook</em></a></li>
 									<li><a class="i-instagram" href=""><em>Instagram</em></a></li>
+									<li><a class="i-email" href="mailto:travis@projectopusfilms.com"><em>Email</em></a></li>
 								</ul>
 								</div>
 							</div>
@@ -406,7 +402,7 @@
 							</div>
 							
 							<div class="extended">
-								<div class="container">
+								<div class="holder">
 								<div class="info">
 									<h4>Alejandro Zapata</h4>
 									<p>Production/Post-production supervisor</p>
@@ -420,13 +416,11 @@
 								
 								<p>He’s also addicted to <a href="http://instagram.com/jandyzapata">instagram</a></p>
 								
-								<p><a class="btn btn-primary" href="mailto:alejandro@projectopusfilms.com">Email Alejandro</a></p>
-								
-								
 								<ul class="social-list">
 									<li><a class="i-twitter" href=""><em>Twitter</em></a></li>
 									<li><a class="i-facebook" href=""><em>Facebook</em></a></li>
 									<li><a class="i-instagram" href=""><em>Instagram</em></a></li>
+									<li><a class="i-email" href="mailto:alejandro@projectopusfilms.com"><em>Email</em></a></li>
 								</ul>
 								</div>
 							</div>
@@ -445,7 +439,7 @@
 								<h4>This could be you.</h4>
 								<p>Project Opus is always looking for new talent. If you think you’d fit our company we’d love to hear from you.</p>
 								
-								<a class="btn btn-primary" href="mailto:info@projectopusfilms.com">Contact us about opportunities</a>
+								<a class="btn btn-primary" href="mailto:info@projectopusfilms.com">Contact us</a>
 							</div>
 							
 						</div><!--team-member-->
@@ -461,7 +455,7 @@
 			
 				<div class="row-fluid">
 					<div class="span12">
-						<h3 class="lead">What we're up to</h3>
+						<h3 class="lead">What We're Up To</h3>
 						
 						<h4 class="follow">Follow us on Instagram: 
 						
@@ -633,7 +627,7 @@
 			</div><!--container-->
 		</header>
 		
-		<div class="subsection spacer" id="team">
+		<div class="subsection spacer" id="work">
 			<div class="container">
 			
 				<div class="row-fluid">
