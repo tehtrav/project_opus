@@ -1,6 +1,8 @@
-#reel, #whatwedo, #contact {
+/*
+#reel, #whatwedo, #ourwork, #whatwereupto, #team  {
 	display: none;
 }
+*/
 
 
 
@@ -1004,14 +1006,11 @@ section {
 	
 	.project {
 		margin-bottom: 60px;
-		.info { display:none; }
-		.frame-container {
-			display: none;
-		}
-
-		.videoWrapper {
-			margin-bottom: 25px;
-		}
+		width: auto;
+		float: none;
+		
+		.info, .frame-container { display:none; }
+		.videoWrapper { margin-bottom: 25px; }
 		
 		.extended {
 			.info {
@@ -1021,31 +1020,27 @@ section {
 					font-size: 1.3em;
 				}
 			}
-			.container {
-				padding: 0;
-			}
+			.holder { padding: 0; }
 		}
 	}
 	
 	
 		
-	// mobile landscape & up
-	@media screen and (min-width: 480px) {
-
-	}
-	
-	@media screen and (min-width: 600px) {
+	@media screen and (min-width: 768px) {
 		.project {
 			
-			margin-bottom: 30px;
+			/* Fluid rows of 2 columns */
+			margin: 0;
 			float: left;
 			clear:  none;
-			width: 47%;
-			margin-right: 4.9%;
-			&:nth-child(even) { margin-right:0; }
+			width: 48%;
+			margin-right: 4%;
+			margin-bottom: 30px;
+			&:nth-child(even) { margin-right:0;}
 			&:nth-child(odd) { clear: left; }
 			
-			.frame-container {
+			
+			.frame-container { 
 				display: block;
 			}
 			
@@ -1074,11 +1069,11 @@ section {
 				top: 0;
 				bottom: 0;
 				z-index: 10000;
-				.container {
+				.holder {
 					position: absolute;
 					width: 600px;
 					top: 50%;
-					margin-top: -300px;
+					margin-top: -400px;
 					left: 50%;
 					margin-left: -400px;
 					padding: 100px;
@@ -1102,7 +1097,23 @@ section {
 		}
 	}
 	
-	
+	@media screen and (min-width: 1024px) {
+		.project {
+			/* Fluid rows of 3 columns */
+			margin: 0;
+			float: left;
+			clear:  none;
+			width: 30%;
+			margin-right: 5%;
+			margin-bottom: 30px;
+			
+			&:nth-child(even) { margin-right: 5%;}
+			&:nth-child(odd) { clear: none; }
+			
+			&:nth-child(3n) { margin-right:0;}
+			&:nth-child(3n+1) { clear: left;}
+		}
+	}
 	
 
 	

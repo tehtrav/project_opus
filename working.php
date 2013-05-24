@@ -642,7 +642,7 @@
 							<p>Documentary</p>
 						</div>
 						<div class="extended">
-							<div class="container">
+							<div class="holder">
 							
 								<div class="videoWrapper">
 									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -674,7 +674,7 @@
 							<p>Documentary</p>
 						</div>
 						<div class="extended">
-							<div class="container">
+							<div class="holder">
 							
 								<div class="videoWrapper">
 									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -703,7 +703,7 @@
 							<p>Documentary</p>
 						</div>
 						<div class="extended">
-							<div class="container">
+							<div class="holder">
 							
 								<div class="videoWrapper">
 									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -735,7 +735,7 @@
 							<p>Documentary</p>
 						</div>
 						<div class="extended">
-							<div class="container">
+							<div class="holder">
 							
 								<div class="videoWrapper">
 									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -767,7 +767,7 @@
 							<p>Documentary</p>
 						</div>
 						<div class="extended">
-							<div class="container">
+							<div class="holder">
 							
 								<div class="videoWrapper">
 									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -799,7 +799,7 @@
 							<p>Documentary</p>
 						</div>
 						<div class="extended">
-							<div class="container">
+							<div class="holder">
 							
 								<div class="videoWrapper">
 									<iframe src="http://player.vimeo.com/video/65600860?title=0&amp;byline=0&amp;portrait=0" width="100%" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe>
@@ -848,7 +848,7 @@
 			</div><!--container-->
 		</header>
 		
-		<div class="subsection spacer" id="team">
+		<div class="subsection spacer">
 			<div class="container">
 			
 				<div class="row-fluid">

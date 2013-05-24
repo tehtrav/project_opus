@@ -1020,7 +1020,6 @@ a.label:hover,a.label:focus,a.badge:hover,a.badge:focus{color:#ffffff;text-decor
 .invisible{visibility:hidden;}
 .affix{position:fixed;}
 .bright{color:#eee;}
-#reel,#whatwedo,#contact{display:none;}
 body{background:#272428 url(../img/body-bg.png);padding:0;margin:60px 0 0 0;}@media screen and (min-width:768px){body{margin:0;}}@media screen and (min-width:1024px){body .non-essential{display:inline;}}
 h1,h2,h3,h4,h5,h6{font-weight:500;letter-spacing:1px;}
 @media screen and (min-width:320px){.container{padding:0 30px;}}@media screen and (min-width:480px){.container{padding:0 40px;}}@media screen and (min-width:600px){.container{padding:0 50px;}}@media screen and (min-width:768px){.container{padding:0;}}
@@ -1082,12 +1081,11 @@ section header nav{display:none;}@media screen and (min-width:768px){section hea
 .social-list li a.i-twitter em{background-image:url(/lib/img/social-icons/twitter.png);}
 .social-list li a.i-email em{background-image:url(/lib/img/social-icons/email.png);}
 .social-list li a:hover em{-webkit-transform:rotateY(360deg);-moz-transform:rotateY(360deg);-ms-transform:rotateY(360deg);transform:rotateY(360deg);}
-#ourwork{border-bottom:10px solid #545355;padding-bottom:5em;}#ourwork .project{margin-bottom:60px;}#ourwork .project .info{display:none;}
-#ourwork .project .frame-container{display:none;}
+#ourwork{border-bottom:10px solid #545355;padding-bottom:5em;}#ourwork .project{margin-bottom:60px;width:auto;float:none;}#ourwork .project .info,#ourwork .project .frame-container{display:none;}
 #ourwork .project .videoWrapper{margin-bottom:25px;}
 #ourwork .project .extended .info{display:block;margin-bottom:15px;}#ourwork .project .extended .info h4{font-size:1.3em;}
-#ourwork .project .extended .container{padding:0;}
-@media screen and (min-width:480px){}@media screen and (min-width:600px){#ourwork .project{margin-bottom:30px;float:left;clear:none;width:47%;margin-right:4.9%;}#ourwork .project:nth-child(even){margin-right:0;} #ourwork .project:nth-child(odd){clear:left;} #ourwork .project .frame-container{display:block;} #ourwork .project .info{display:block;}#ourwork .project .info h4{font-size:1.5em;margin-bottom:.1em;line-height:1.2;} #ourwork .project .info p{font-size:.9em;color:#808080;margin-bottom:0;line-height:1.2;text-transform:uppercase;} #ourwork .project .extended{display:none;position:fixed;background:rgba(40, 37, 41, 0.98);left:0;right:0;top:0;bottom:0;z-index:10000;}#ourwork .project .extended .container{position:absolute;width:600px;top:50%;margin-top:-300px;left:50%;margin-left:-400px;padding:100px;}#ourwork .project .extended .container .info{position:static;padding:0 0 1em 0;} #ourwork .project .extended .videoWrapper{margin-bottom:1.2em;} #ourwork .project.active .extended{display:block;}}
+#ourwork .project .extended .holder{padding:0;}
+@media screen and (min-width:768px){#ourwork .project{margin:0;float:left;clear:none;width:48%;margin-right:4%;margin-bottom:30px;}#ourwork .project:nth-child(even){margin-right:0;} #ourwork .project:nth-child(odd){clear:left;} #ourwork .project .frame-container{display:block;} #ourwork .project .info{display:block;}#ourwork .project .info h4{font-size:1.5em;margin-bottom:.1em;line-height:1.2;} #ourwork .project .info p{font-size:.9em;color:#808080;margin-bottom:0;line-height:1.2;text-transform:uppercase;} #ourwork .project .extended{display:none;position:fixed;background:rgba(40, 37, 41, 0.98);left:0;right:0;top:0;bottom:0;z-index:10000;}#ourwork .project .extended .holder{position:absolute;width:600px;top:50%;margin-top:-400px;left:50%;margin-left:-400px;padding:100px;}#ourwork .project .extended .holder .info{position:static;padding:0 0 1em 0;} #ourwork .project .extended .videoWrapper{margin-bottom:1.2em;} #ourwork .project.active .extended{display:block;}}@media screen and (min-width:1024px){#ourwork .project{margin:0;float:left;clear:none;width:30%;margin-right:5%;margin-bottom:30px;}#ourwork .project:nth-child(even){margin-right:5%;} #ourwork .project:nth-child(odd){clear:none;} #ourwork .project:nth-child(3n){margin-right:0;} #ourwork .project:nth-child(3n+1){clear:left;}}
 #services .span3{*zoom:1;margin-bottom:30px;}#services .span3:before,#services .span3:after{display:table;content:"";line-height:0;}
 #services .span3:after{clear:both;}
 #services .span3:before,#services .span3:after{display:table;content:"";line-height:0;}
